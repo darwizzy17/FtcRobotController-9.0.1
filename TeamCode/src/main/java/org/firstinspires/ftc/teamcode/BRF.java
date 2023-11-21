@@ -11,8 +11,8 @@ import com.qualcomm.robotcore.util.Range;
 import org.firstinspires.ftc.robotcore.external.navigation.AngleUnit;
 import org.firstinspires.ftc.robotcore.external.navigation.YawPitchRollAngles;
 
-@Autonomous(name="Back Red", group="Robot")
-public class BR extends LinearOpMode {
+@Autonomous(name="Back Red (Far)", group="Robot")
+public class BRF extends LinearOpMode {
 
 
     /* Copyright (c) 2022 FIRST. All rights reserved.
@@ -154,14 +154,14 @@ public class BR extends LinearOpMode {
         //!CD
 
         sleep(5000);
-        driveStraight(DRIVE_SPEED, 5.0, 0.0);
+        driveStraight(DRIVE_SPEED, 110.0, 0.0);
         turnToHeading( TURN_SPEED, -87.0);
         driveStraight(DRIVE_SPEED, 230.0, -90.0);
         driveStraight(DRIVE_SPEED, -10.0, -90.0);// Drive Forward 24"
 //        turnToHeading( TURN_SPEED, -45.0);               // Turn  CW to -45 Degrees
 //        holdHeading( TURN_SPEED, -45.0, 0.5);   // Hold -45 Deg heading for a 1/2 second
 //
-//        driveStraight(DRIVE_SPEED, 17.0, -45.0);  // Drive Forward 17" at -45 degrees (12"x and 12"y)
+//        driveStraight(DRIVE_SPEED, 17.0, -45.0QAWv);  // Drive Forward 17" at -45 degrees (12"x and 12"y)
 //        turnToHeading( TURN_SPEED,  45.0);               // Turn  CCW  to  45 Degrees
 //        holdHeading( TURN_SPEED,  45.0, 0.5);    // Hold  45 Deg heading for a 1/2 second
 //

@@ -154,7 +154,8 @@ public class FR extends LinearOpMode {
         //!CD
         driveStraight(DRIVE_SPEED, 20.0, 0.0);
         turnToHeading( TURN_SPEED, -90.0);
-        driveStraight(DRIVE_SPEED, 90.0, -90.0);    // Drive Forward 24"
+        driveStraight(DRIVE_SPEED, 110.0, -90.0);    // Drive Forward 24"
+        driveStraight(DRIVE_SPEED, -10.0, -90.0);
 //        turnToHeading( TURN_SPEED, -45.0);               // Turn  CW to -45 Degrees
 //        holdHeading( TURN_SPEED, -45.0, 0.5);   // Hold -45 Deg heading for a 1/2 second
 //
