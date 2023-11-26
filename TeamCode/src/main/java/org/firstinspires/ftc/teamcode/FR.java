@@ -152,7 +152,7 @@ public class FR extends LinearOpMode {
         //          holdHeading() is used after turns to let the heading stabilize
         //          Add a sleep(2000) after any step to keep the telemetry data visible for review
         //!CD
-        driveStraight(DRIVE_SPEED, 20.0, 0.0);
+        driveStraight(DRIVE_SPEED, 8.0, 0.0);
         turnToHeading( TURN_SPEED, -90.0);
         driveStraight(DRIVE_SPEED, 110.0, -90.0);    // Drive Forward 24"
         driveStraight(DRIVE_SPEED, -10.0, -90.0);
